@@ -1,2 +1,2 @@
 # DataStructureAlgorithm
-This repository is to learn Data Structure and ALgorithm from basics using C# language
+This repository is to learn Data Structure and Algorithm from basics using C# language
