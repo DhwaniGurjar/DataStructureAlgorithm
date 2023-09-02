@@ -1,0 +1,12 @@
+Flowchart basically helps us to roughly get an idea about how the flow of program should be working. There are multiple flowchart symbols as shown below:
+
+![Flowchart symbols](image.png)
+
+Oval - which is usually called terminators are placed at start/end
+Parallelogram - input parameters
+Rectangles - process
+Diamond - decisions
+arrows - to guide the flow
+circle - connectors
+
+The flowchart starts with 'Oval' which represents the start point followed by 'Parallelogram' where we first decide what are the input variables of the problem. Next we go towards process which can be for eg. i = i+1, next if we have loops or conditions we use 'Diamonds' and then we end it with single 'Oval' end point. All these shapes are connected through arrrows.
