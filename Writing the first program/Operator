@@ -1,0 +1,10 @@
+1. Arithmetic Operator : +,-,*,/
+int/int = int
+float/int = float
+double/int = double
+
+2. Relational Operator : =,>,<,>=,<=,!=
+
+3. Logical Operator : &&, ||, !
+
+4. Bitwise Operator

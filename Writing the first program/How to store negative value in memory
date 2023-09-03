@@ -1,0 +1,14 @@
+To store negative number in memory follow the following steps
+For eg., store '-5' value
+
+1. Ignore the '-' sign
+2. Convert the value to binary
+3. Take 2's compliment and store in memory
+
+For value '-5'
+convert to binary   -> 0...0000 101
+1's compliment      -> 1...1111 010
+2's compliment      ->           +1
+                    -> 1...1111 011
+Print will look for first bit which 1 so the computer will understand this is a negative number
+then it will apply 1's compliment & 2's compliment for value

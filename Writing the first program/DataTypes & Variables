@@ -1,0 +1,46 @@
+To store in memory we need TYPE and VALUE
+
+For eg., int a = 5 where int = type, a = variable, 5 = value, int = 4byte = memory amount
+
+each type has a different memory allocation whenever we provide a type in coding the computer recognize it and allocate the required memory for it
+
+1 byte is the smallest addressable size of CPU
+1. INT
+sizeof INT = 4 bytes = 32 bits [_ _ _ _]
+
+2. CHAR
+sizeof CHAR = 1 byte = 8 bits
+
+3. BOOL
+sizeof BOOL = 1 byte = 8 bits
+
+4. FLOAT
+sizeof FLOAT = 4 bytes = 32 bits
+
+5. DOUBLE
+sizeof DOUBLE = 8 bytes = 64 bits
+
+* Convert bytes to binary
+How memory allocation works?
+int a = 8; [0..0000-0000-0000-1000] 8 = 1000
+int a = 5; [0..0000-0000-0000-00101] 5 = 101, so 29 (0's) + 101
+
+How memory stores characters?
+char ch = 'a' so if we look in ASCII = 97 and it stores 97 in binary form and computer recognize it when it reads char of memory allocation of 97
+So we can do type casting as well using this
+we can assign int a = 'a' and char ch = 98;
+
+* Find Max and Min value of data types
+usually max value = 2^n where n = bit of datatype
+
+integer : Max value = 2^32 - 1
+          Min value = 0
+
+character : Max value = 2^8 - 1
+            Min value = 0
+
+if we run char ch = 123456 which is greater than max value of char it will display the last byte = 64 which is '@'
+
+Default int has range from -(2^32-1) to 2^32-1 but 'unsigned' has only positive value so its range will be from 0 to 2^32-1
+
+if unsigned int = -112 it will print 133554....
