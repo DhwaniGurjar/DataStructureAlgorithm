@@ -1,0 +1,9 @@
+The source code which we write is not readable by the computer as computer only understands 0's and 1's i.e., binary language. So to make our code readable we require Compiler, the compiler creates an executable file which becomes readable by Machine. Compilers are basically used for translation of coding language to binary language and find compilation error. 
+
+Along with compiler we also require IDE i.e, Integrated Development Environment which provide an environment to the code to compile and execute. Such IDE can be Code Blocks, VS code or Replit
+
+Lets start by understanding the first program of C# mentioned in FirstProgram.cs
+
+To learn more about public static void main() method click below
+
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/program-structure/main-command-line
