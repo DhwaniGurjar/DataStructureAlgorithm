@@ -22,7 +22,7 @@ public class Program{
 				j++;
 			}
 			int k = 1;
-			while(i> k){
+			while(i > k){
 				Console.Write(k);
 				k++;
 			}

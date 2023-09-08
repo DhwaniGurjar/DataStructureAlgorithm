@@ -11,7 +11,7 @@ public class Program{
 		int n = Int32.Parse(Console.ReadLine());
 		int i = 1;
 		int counter = 1;
-		while( i <= n){
+		while( i<=n){
 			int space = n-i;
 			while(space != 0 && space <= n){
 				Console.Write(" ");
