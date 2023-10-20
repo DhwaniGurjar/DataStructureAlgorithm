@@ -1,0 +1,10 @@
+for(initialization; condition; increment/decrement)
+
+initialization or condition or increment/decrement are not mandatory
+so we can write for(;;)
+
+'break' will take you out of current loop
+
+we can more than one variable in for loop
+
+'continue' is used to skip iteration

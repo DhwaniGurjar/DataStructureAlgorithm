@@ -1,0 +1,40 @@
+Increment Operator
+
+Post increment
+i = i + 1; is same as i += 1; is same as i++;
+first use i and then increase i
+
+int i = 4;
+int a = i++;
+so i = 5; a = 4;
+
+int i = 3; a = 2
+sum = a + (i++);
+a = 5; i = 4l
+
+
+Pre increment
+++i;
+increase i then use
+
+int i = 11;
+int a = ++i;
+i = 12; a = 12;
+
+int i = 3; a = 2;
+sum = a +(++i);
+sum = 6; i = 4
+
+Post decrement
+i = i - 1; is same as i -= 1; is same as i--;
+first use then decrease
+int i = 4;
+int a = --1;
+a = 4; i = 3;
+
+Pre decrement
+--i;
+first decrease and then use;
+int i = 4;
+int a = --i;
+a = 3; i = 3;

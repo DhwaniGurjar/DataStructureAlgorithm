@@ -1,0 +1,21 @@
+*Left shift*
+
+5 << 1
+so 5 = 00..00101
+and one left shift means 00..001010 which is 10
+
+3 << 2 
+so 3 = 00..00011
+and 2 shifts so 00..01100 which is 12
+
+whenever we left shift it will multiply no by 2 (this is not always true mostly in small nos.)
+
+*Right Shift*
+
+5>>1
+so 5 = 00,..000101
+right shift nmeans 00.00001 so it is 1
+whenever we left shift it will divide no by 2 (this is not always true mostly in small nos.)
+
+If no is positive and if shift operator is added padding added will be 0 so for left it will be added on rightside and for right 0 will be added on left of bit
+For -ve number padding depends on compiler
